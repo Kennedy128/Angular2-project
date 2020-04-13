@@ -10,13 +10,15 @@ import { ProfilesService } from './services/profiles.service';
 import { MyProfilesComponent } from './my-profiles/my-profiles.component';
 import { ReposComponent } from './repos/repos.component';
 import { SearchComponent } from './search/search.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyProfilesComponent,
     ReposComponent,
-    SearchComponent
+    SearchComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
