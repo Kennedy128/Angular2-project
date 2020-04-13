@@ -2,7 +2,7 @@
     <form (ngSubmit)="submitUser(name)" #userForm="ngForm">
       <div class="form-group">
         <div class="col-sm-10">
-        <p>  <input type="text" class="form-control" id="inputtext" id="input" placeholder="Enter Github username" [(ngModel)]="newSearch.name" name="name" keyUp="submitUser(name)" #name='ngModel'><br>
+        <p>  <input type="text" class="form-control" id="inputtext" id="input" placeholder="your respective github username" [(ngModel)]="newSearch.name" name="name" keyUp="submitUser(name)" #name='ngModel'><br>
           <button id="submit" class="btn btn-primary" (click)='submitUser(name)'>look for</button>
           </p>
         </div>
