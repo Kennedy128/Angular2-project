@@ -17,7 +17,7 @@
   
           <div class="col-sm-3">
             <img src="{{users.avatar_url}}" class="img-circle" alt=""><br>
-            <li class="list-group-item" *ngIf="users.created_at" id="emailocation">Account created on: <b>{{users.created_at | date}}</b></li>
+            <li class="list-group-item" *ngIf="users.created_at" id="emailocation">date of creation: <b>{{users.created_at | date}}</b></li>
             <li class="list-group-item" *ngIf="users.email" id="emailocation">Email-Address: <a href="{{users.email}}" target="_blank"> {{users.email}} </a></li>
             <li class="list-group-item" *ngIf="users.location" id="emailocation">Location: <b>{{users.location}}</b></li>
   
