@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="search">
-    <button class="btn btn-success"><a routerLink='/search-form' routerLinkActive='active'>Search an account</a></button>
+    <a routerLink='/search' routerLinkActive='active'>Search an account</a>
     </div>
     <div *ngIf="users">
           <div class="row">
@@ -37,6 +37,7 @@
             </div>
             <div class="repo">
             <app-repos></app-repos>
+
             </div>
         </div>
       </div>
